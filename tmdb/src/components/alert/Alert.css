@@ -1,0 +1,33 @@
+/* Alert.css */
+
+.alert {
+    position: fixed;
+    bottom: 20px;
+    right: 20px;
+    padding: 10px 20px;
+    border-radius: 5px;
+    font-size: 16px;
+    font-weight: bold;
+    opacity: 0;
+    transition: opacity 0.5s ease-in-out;
+  }
+  
+  .alert.alert-success {
+    background-color: #4caf50;
+    color: #fff;
+  }
+  
+  .alert.alert-warning {
+    background-color: #ff9800;
+    color: #fff;
+  }
+  
+  .alert.alert-error {
+    background-color: #f44336;
+    color: #fff;
+  }
+  
+  .alert.show {
+    opacity: 1;
+  }
+  

@@ -1,0 +1,35 @@
+.row img {
+  border-radius: 10px;
+  height: 20rem;
+}
+.backdrop-img {
+  width: 100%;
+  border-radius: 10px;
+}
+
+.description {
+  margin: 2rem 0;
+}
+.title {
+  font-weight: 600;
+  font-size: 1.5rem;
+}
+.overview {
+  font-size: 0.8rem;
+}
+.video-responsive {
+    overflow: hidden;
+    padding-bottom: 56.25%;
+    position: relative;
+    height: 0;
+  }
+  
+  .video-responsive iframe {
+    left: 0;
+    top: 0;
+    height: 100%;
+    width: 100%;
+    position: absolute;
+  }
+  
+  
